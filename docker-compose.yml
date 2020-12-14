@@ -1,0 +1,10 @@
+version: "3"
+services:
+  portainer:
+    image: xmly:test
+    container_name: xmly_speed
+    volumes:
+      - ./logs:/logs
+#    command: crond
+    restart: always  
+ 

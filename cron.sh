@@ -1,0 +1,1 @@
+*/30 * * * * python3 /usr/src/app/xmly_speed.py >> /logs/xmly.log 2>&1
